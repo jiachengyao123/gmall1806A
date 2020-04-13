@@ -12,16 +12,16 @@ import org.junit.jupiter.api.Test;
 
 public class MyMp {
     private static String author ="MrJia";//作者名称
-    private static String outputDir ="/Users/jia/idea/home_parent/home_after/src" +
+    private static String outputDir ="/Users/jia/idea/gmall1806/gmall-1806/src" +
             "/main/java";//生成的位置
     private static String driver ="com.mysql.jdbc.Driver";//驱动，注意版本
     //连接路径,注意修改数据库名称
-    private static String url ="jdbc:mysql://localhost:3306/guoDa?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
+    private static String url ="jdbc:mysql://39.106.51.152:3306/gmall1806?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
     private static String username ="root";//数据库用户名
     private static String password ="root";//数据库密码
     private static String tablePrefix ="g_";//数据库表的前缀，如tbl_user
-    private static String [] tables = {"g_role_list"};	//生成的表
-    private static String parentPackage = "com.buba.after";//顶级包结构
+    private static String [] tables = {"g_group"};	//生成的表
+    private static String parentPackage = "com.buba";//顶级包结构
     private static String dao = "mapper";//数据访问层包名称
     private static String service = "service";//业务逻辑层包名称
     private static String entity = "pojo";//实体层包名称
